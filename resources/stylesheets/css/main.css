@@ -46,7 +46,7 @@ h3 {
 }
 
 button, .button, .btn {
-  background: none;
+  background: #f6fffa;
   outline: none;
   border: 1px solid #777;
   border-radius: 5px;
@@ -55,7 +55,8 @@ button, .button, .btn {
   font-size: 18px;
 }
 button:hover, .button:hover, .btn:hover {
-  background: #dee2df;
+  border-color: #1da15b;
+  color: #1da15b;
 }
 
 li {
@@ -107,6 +108,7 @@ aside {
   background: #dee2df;
   border-radius: 15px;
   padding: 40px 30px;
+  display: none;
   position: absolute;
 }
 
@@ -117,16 +119,13 @@ aside {
   max-height: 75vh;
 }
 #more-info-content button {
+  background: none;
   border: none;
   position: absolute;
   width: 50px;
   top: 10px;
   right: 10px;
   font-size: 30px;
-}
-#more-info-content button:hover {
-  background: none;
-  text-decoration: underline;
 }
 
 footer {

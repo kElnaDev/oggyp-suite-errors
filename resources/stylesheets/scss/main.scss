@@ -65,7 +65,7 @@ h3 {
 
 // Buttons
 button, .button, .btn {
-  background: none;
+  background: globals.$light;
   outline: none;
   border: 1px solid globals.$grey;
   border-radius: 5px;
@@ -74,7 +74,8 @@ button, .button, .btn {
   font-size: 18px;
 
   &:hover {
-    background: globals.$light-grey;
+    border-color: globals.$secondary;
+    color: globals.$secondary;
   }
 }
 
@@ -140,7 +141,7 @@ aside {
 
   border-radius: 15px;
   padding: 40px 30px;
-  //display: none;
+  display: none;
   position: absolute;
 }
 
@@ -151,17 +152,13 @@ aside {
   max-height: 75vh;
 
   button {
+    background: none;
     border: none;
     position: absolute;
     width: 50px;
     top: 10px;
     right: 10px;
     font-size: 30px;
-
-    &:hover {
-      background: none;
-      text-decoration: underline;
-    }
   }
 }
 
