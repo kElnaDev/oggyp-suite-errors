@@ -52,6 +52,7 @@ button, .button, .btn {
   border-radius: 5px;
   padding: 5px;
   text-decoration: none;
+  text-align: center;
   font-size: 18px;
 }
 button:hover, .button:hover, .btn:hover {
@@ -152,6 +153,28 @@ footer *:hover {
 footer img {
   opacity: 0.5;
   width: 25px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  main img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  main div {
+    text-align: center;
+  }
+
+  #options {
+    display: flex;
+    flex-direction: column;
+  }
+  #options button, #options .button, #options .btn {
+    margin: 10px 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
