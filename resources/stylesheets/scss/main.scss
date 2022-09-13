@@ -27,7 +27,7 @@
 
 // Body
 body {
-  background: globals.$light;
+  background: white;
   min-width: 100vw;
   min-height: 100vh;
   padding-bottom: globals.$footer-height;
@@ -65,7 +65,7 @@ h3 {
 
 // Buttons
 button, .button, .btn {
-  background: globals.$light;
+  background: white;
   outline: none;
   border: 1px solid globals.$grey;
   border-radius: 5px;

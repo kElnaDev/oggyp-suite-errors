@@ -15,7 +15,7 @@
 }
 
 body {
-  background: #f6fffa;
+  background: white;
   min-width: 100vw;
   min-height: 100vh;
   padding-bottom: 50px;
@@ -46,7 +46,7 @@ h3 {
 }
 
 button, .button, .btn {
-  background: #f6fffa;
+  background: white;
   outline: none;
   border: 1px solid #777;
   border-radius: 5px;
